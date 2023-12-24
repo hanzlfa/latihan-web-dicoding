@@ -64,7 +64,7 @@ nav ul li a:hover {
 
 /* HAMBURGER */
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 /* BANNER */
@@ -207,7 +207,8 @@ header {
 }
 
 .walikota,
-.wakilkota, header {
+.wakilkota,
+header {
   text-align: center;
 }
 
@@ -264,8 +265,6 @@ figcaption {
   border-radius: 50%;
   padding: 20px 0;
 }
-
-
 
 /* SOCIAL MEDIA */
 
@@ -334,7 +333,7 @@ footer {
   }
 
   main #aside {
-    max-width: 600px;
+    max-width: 500px;
     margin-inline: auto;
   }
 }
@@ -366,7 +365,6 @@ footer {
   .banner .content .content-description p {
     font-size: smaller;
   }
-
 }
 
 @media screen and (max-width: 888px) {
@@ -443,7 +441,6 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 0 3rem;
-    
   }
 
   nav ul {
@@ -522,17 +519,21 @@ footer {
   }
 
   th {
-    width: 150px;
+    width: 165px;
   }
 
-.profile,
-.walikota,
-.wakilkota,
-.myprofile table {
-  font-size: smaller;
+  #aside table {
+    font-size: 12px;
+  }
 }
 
-@media screen and (max-width: 380px) {
+
+@media screen and (max-width: 475px) {
+  th {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 385px) {
   h3 {
     font-size: small;
   }
@@ -563,7 +564,7 @@ footer {
   }
 
   #aside table {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   #aside img {
@@ -573,5 +574,8 @@ footer {
   figcaption {
     font-size: 10px;
   }
-}
+
+  th {
+    width: 100px;
+  }
 }
