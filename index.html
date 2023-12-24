@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Redesign Web Kota Tangerang</title>
 
-  <!-- My Own Style -->
+  <!-- CSS -->
   <link rel="stylesheet" href="styles/style.css" />
 
-  <!-- Google Fonts -->
+  <!-- FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -21,26 +21,32 @@
 </head>
 
 <body>
-<nav>
-  <div class="navlogo">
-    <a href="https://tangerangkota.go.id/"><img src="images/logo.png" alt="Logo Kota Tangerang" /></a>
-    <span><h3>tangerangkota.go.id</h3></span>
-  </div>
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <div class="navlogo">
+        <a href="https://tangerangkota.go.id/"><img src="images/logo.png" alt="Logo Kota Tangerang" /></a>
+        <span>
+          <h3>tangerangkota.go.id</h3>
+        </span>
+      </div>
 
-  <ul id="menu-list" class="hidden">
-    <li><a href="#aside">Profil</a></li>
-    <li><a href="https://tangerangkota.go.id/berita">Arsip Berita</a></li>
-    <li><a href="#">Video Liputan</a></li>
-    <li><a href="#">Info Penting</a></li>
-    <li><a href="https://ppid.tangerangkota.go.id/">PPID</a></li>
-    <li><a href="https://tangerangkota.go.id/aplikasi">Pelayanan Publik</a></li>
-  </ul>
+      <ul id="menu-list" class="hidden">
+        <li><a href="#aside">Profil</a></li>
+        <li><a href="https://tangerangkota.go.id/berita">Arsip Berita</a></li>
+        <li><a href="#">Video Liputan</a></li>
+        <li><a href="#">Info Penting</a></li>
+        <li><a href="https://ppid.tangerangkota.go.id/">PPID</a></li>
+        <li><a href="https://tangerangkota.go.id/aplikasi">Pelayanan Publik</a></li>
+      </ul>
 
-  <div id="menu-icon" class="menu-icon">
-    <i class="fa fa-bars"></i>
-  </div>
-</nav>
+      <div id="menu-icon" class="menu-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+  </header>
 
+  <!-- BANNER -->
   <div class="banner">
     <div class="content">
       <div class="content-description">
@@ -66,11 +72,16 @@
     </div>
   </div>
 
+  <!-- BERITA -->
   <div>
     <h2 class="berita">Berita Kota Tangerang</h2>
   </div>
+
+  <!-- ARTIKEL DAN ASIDE -->
   <main>
     <div id="article">
+
+      <!-- BERITA 1 -->
       <article id="berita-1" class="card">
         <h3>
           Puskesmas Panunggangan Raih Penghargaan Standarisasi Pelayanan Ramah
@@ -95,6 +106,7 @@
         </button>
       </article>
 
+      <!-- BERITA 2 -->
       <article id="berita-2" class="card">
         <h3>
           Kilas Balik Satu Dekade, Kampung Si Gacor Sukses Atasi Pandemi
@@ -118,8 +130,30 @@
             More &rarr;</a>
         </button>
       </article>
+
+      <!-- BERITA 3 -->
+      <article id="berita-3" class="card">
+        <h3>
+          Apresiasi Layanan Transportasi Umum Terintegrasi di Kota Tangerang, Pengamat: Sudah Berjalan Sangat Baik!
+        </h3>
+        <br />
+        <p>Minggu, 24 Desember 2023 | 06:58 WIB</p>
+        <img src="images/berita 3.jpeg" alt="Apresiasi Layanan Transportasi Umum" class="featured-image" />
+        <p>
+          Pemerintah Kota (Pemkot) Tangerang semakin banyak mendapatkan apresiasi dari berbagai pihak atas
+          keberhasilannya mengatasi permasalahan kemacetan di Kota Tangerang. Salah satunya, Pemkot Tangerang dinilai
+          berhasil dalam mengoptimalisasi layanan transportasi umum terintegrasi di Kota Tangerang.
+        </p>
+
+        <button>
+          <a
+            href="https://tangerangkota.go.id/berita/detail/39793/apresiasi-layanan-transportasi-umum-terintegrasi-di-kota-tangerang-pengamat-sudah-berjalan-sangat-baik">Read
+            More &rarr;</a>
+        </button>
+      </article>
     </div>
 
+    <!-- MEDIA SOSIAL -->
     <aside>
       <div id="social-media">
         <div class="social-media">
@@ -189,7 +223,7 @@
               </tr>
               <tr>
                 <th>Situs web</th>
-                <td><a href="https://tangerangkota.go.id/">www.tangerangkota.go.id</td>
+                <td><a href="https://tangerangkota.go.id/">www.tangerangkota.go.id</a></td>
               </tr>
             </table>
           </section>
@@ -233,7 +267,7 @@
           </section>
         </article>
 
-        <!-- Wakil Wali KOta -->
+        <!-- Wakil Wali Kota -->
         <article class="wakilkota card">
           <header>
             <h3>Profil Wakil Walikota Tangerang</h3>
@@ -268,15 +302,49 @@
             </table>
           </section>
         </article>
+
+        <!-- Profie Saya -->
+        <article class="myprofile card">
+          <header>
+            <h3>Profil Saya</h3>
+            <figure>
+              <img src="images/Profil saya.png" />
+              <figcaption>Profil Saya</figcaption>
+            </figure>
+          </header>
+
+          <section>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Jihan Zulfa Mulyawan</td>
+              </tr>
+              <tr>
+                <th>Tempat, Tanggal Lahir</th>
+                <td>Tangerang, 22 September 2004</td>
+              </tr>
+              <tr>
+                <th>Instagram</th>
+                <td><a href="https://www.instagram.com/hanzlfa/">@hanzlfa</a></td>
+              </tr>
+              <tr>
+                <th>LinkedIn</th>
+                <td><a href="https://www.linkedin.com/in/jihan-zulfa/">Jihan Zulfa</a></td>
+              </tr>
+            </table>
+          </section>
+        </article>
       </div>
     </aside>
   </main>
 
+  <!-- FOOTER -->
   <footer>
     <p>Belajar Dasar Pemrograman Web &#169; 2023, Jihan Zulfa</p>
     <p>Redesign Web Resmi Kota Tangerang for Dicoding's Submission: Tugas Akhir Membuat Website</p>
   </footer>
 
+  <!-- JAVASCRIPT -->
   <script src="js/script.js"></script>
 </body>
 
