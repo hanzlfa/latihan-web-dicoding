@@ -525,6 +525,10 @@ footer {
   #aside table {
     font-size: 12px;
   }
+
+  .menu-icon i {
+    font-size: 1.5rem;
+  }
 }
 
 
