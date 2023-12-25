@@ -468,12 +468,13 @@ footer {
 
   .menu-icon {
     display: flex;
-    cursor: pointer;
   }
 
   .menu-icon i {
     font-size: 2rem;
     color: #285430;
+    padding: 10px;
+    cursor: pointer;
   }
 
   footer {
