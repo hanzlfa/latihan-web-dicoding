@@ -196,6 +196,10 @@ main {
   background-color: #285430;
 }
 
+
+#article button.baca-selanjutnya {
+  padding: 10px 0;
+}
 #article button.baca-selanjutnya:hover {
   box-shadow: 1px 1px 2px 0.5px #e5d9b6;
   font-weight: 700;
