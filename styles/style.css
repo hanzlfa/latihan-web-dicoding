@@ -197,12 +197,14 @@ main {
 }
 
 
-#article button.baca-selanjutnya {
-  padding: 10px 0;
+#article a.baca-selanjutnya button{
+  width: 100%;
+  color: rgb(250, 250, 250);
+  font-weight: 600;
 }
-#article button.baca-selanjutnya:hover {
+
+#article a.baca-selanjutnya:hover button {
   box-shadow: 1px 1px 2px 0.5px #e5d9b6;
-  font-weight: 700;
 }
 
 /* ASIDE */
@@ -517,7 +519,7 @@ footer {
   }
 
   .banner .content .content-description button a {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .banner .content .content-description button {
